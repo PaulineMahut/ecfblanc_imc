@@ -22,11 +22,6 @@ const router = createRouter({
       name: 'imc',
       component: () => import('../views/TableauView.vue')
     },
-    {
-      path: '/test',
-      name: 'test',
-      component: () => import('../views/TestView.vue')
-    }
   ]
 })
 

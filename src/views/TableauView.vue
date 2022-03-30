@@ -62,6 +62,8 @@ export default {
         if (!this.taille || !this.poids) {
           alert("Veuillez saisir une donnée");
         }
+        return false;
+
     },
   },
 };
