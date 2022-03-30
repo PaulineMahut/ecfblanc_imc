@@ -38,8 +38,8 @@
               <th scope="col">Indice de masse Corporelle</th>
           </tr>
            <tr>
-              <th scope="col">{{this.poids}}cm</th>
-              <th scope="col">{{this.taille}}kg</th>
+              <th scope="col">{{this.taille}}cm</th>
+              <th scope="col">{{this.poids}}kg</th>
               <th scope="col">{{resultat}}</th>
           </tr>
       </tbody>
