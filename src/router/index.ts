@@ -20,7 +20,7 @@ const router = createRouter({
     {
       path: '/imc',
       name: 'imc',
-      component: () => import('../views/TableauView.vue')
+      component: () => import('../views/ImcView.vue')
     },
   ]
 })
